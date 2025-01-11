@@ -1,0 +1,563 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quando&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quando&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+*{
+    padding: 0;
+    margin:0;
+}
+
+
+
+.product-page-container{
+    padding-inline:20px;
+    /* padding-block:20px; */
+    
+}
+
+.product-page-container-top{
+    padding-inline:10px;
+    display:flex;
+    gap:10px;
+
+}
+
+.img-div{
+    display:flex;
+    flex-direction: column;;
+    gap:20px;
+    margin-top:40px;
+}
+
+.img-div img{
+    width:80px;
+    height:80px;
+}
+
+.img-div img:hover{
+    border:1px solid rgb(116, 116, 116);
+    border-radius: 6px;;
+}
+
+.product-page-left{
+    display:flex;
+    flex-direction: column;
+    width:50%;
+    /* border:1px solid black; */
+    
+}
+
+.product-page-left-top{
+    display:flex;
+    gap:60px;
+}
+
+.buttons-div{
+    display:flex;
+    justify-content: center;
+    gap:10px;
+
+}
+
+.buttons-div button{
+    width:155px;
+    height:45px;
+    border:none;
+    color:white;
+    font-weight:600;
+    
+}
+
+.spotlight-img-div{
+    margin-block:20px;
+    display:flex;
+    flex-direction: column;
+    gap:25px;
+}
+
+.tags-div{
+    display:flex;
+    justify-content: center;
+    gap:10px;
+    padding-block:40px;
+}
+
+.tags-div p{
+    text-align: center;
+    font-family: "Inter";
+    font-size:14px;
+}
+
+.product-page-right{
+
+}
+
+.product-page-right h3{
+    font-family: Inter;
+    margin-block:5px;
+}
+
+.product-page-right h2{
+    font-size:30px;
+    font-family:"Inria Sans";
+    font-weight:500;
+}
+
+.product-rating-div{
+    padding-block:10px;
+}
+
+.product-rating-div span{
+    background-color: green;
+    color:white;
+    padding:4px;
+}
+
+.product-rating-div p{
+    color:rgb(83, 83, 83);
+    font-family:"Inter";
+    font-size:13px;
+    font-weight:600;
+}
+
+.concerns-div{
+    display:flex;
+    gap:10px;
+    padding-block:10px;
+}
+
+.concerns-div p{
+    padding:6px;
+    border-radius: 3px;
+    font-family: "Inter";
+    font-weight: 500;
+
+}
+
+.price-div h2{
+    font-size:21px;
+    font-family: "Inria Sans";
+    font-weight: bold;
+
+}
+.price-div span{
+    text-decoration: line-through;
+    font-weight: 100;
+    color:rgb(56, 56, 56);
+    padding-inline: 3px;;
+}
+
+#offer{
+    text-decoration: none;
+    font-weight:400;
+    color:green;
+    font-family: "Inter";
+}
+
+.price-div p{
+    font-family: "Inria Sans";
+    color:rgb(70, 144, 255)
+}
+.quantity-div{
+    display:flex;
+    /* flex-direction: column; */
+    gap:10px;
+    align-items: center;
+}
+
+.quantity-box{
+    display:flex;
+    gap:3px;
+}
+
+.quantity-box button{
+    /* width:44px; */
+    /* height:16px; */
+    font-family: "Inter";
+    font-weight: 600;
+    padding:3px;
+    /* color:yellow; */
+}
+
+.quantity-selector{
+    display:flex;
+    /* border:1px solid black; */
+    align-items: center;
+}
+
+.quantity-selector button{
+    padding:4px;
+    width:41px;
+    height:34px;
+    font-size:20px;
+    font-weight:500;
+
+}
+
+.quantity-selector p{
+    width:52px;
+    height:34px;
+    text-align: center;
+    /* padding-block:4px; */
+    border:1px solid grey;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-family:18px;
+    font-weight:600;
+}
+
+.specifications-div{
+    margin-top:15px;
+
+}
+
+.specifications-div h2{
+    font-family:"Inter";
+    font-size:15px;
+    font-weight:bold;
+}
+
+.specifications-div ul{
+    list-style: none;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+.specifications-list{
+
+    margin-top:10px;
+    display:flex;
+    gap:40px;
+}
+
+.specifications-parameters{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+
+}
+.specifications-parameters p{
+    font-weight:bold;
+    font-family:"Inter";
+    font-size:13px;
+ 
+}
+
+.specifications-parameters-answer{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    
+}
+
+.specifications-parameters-answer p{
+    /* font-weight:bold; */
+    font-family:"Inter";
+    font-size:13px;
+
+}
+
+.offer-section{
+    margin-top:20px;
+}
+
+.offer-title-div{
+    display:flex;
+    align-items: center;
+    gap:10px;
+}
+
+.offer-title-div h3{
+    font-family:"Inter";
+    font-size:15px;
+}
+
+.offers-div{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.offers-div li{
+    font-family: "Inter";
+    font-size:12px;
+}
+
+.offers-div li a{
+    font-family:"Inter";
+    color:green;
+
+}
+
+.delivery-section{
+    margin-top:20px;
+}
+
+.delivery-title-div{
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+
+.delivery-title-div h3{
+    font-size:15px;
+}
+
+.pincode-div{
+    display:flex;
+    gap:10px;
+    align-items:center;
+    text-decoration: underline;
+    padding-block:3px;
+    /* border-bottom: 1px solid black; */
+}
+
+.pincode-div button{
+    font-family:"Inter";
+    font-size:11px;
+    background-color: black;
+    color:white;
+    outline:none;
+    border:none;
+    padding-inline: 4px;
+    padding-block: 2px;
+    border-radius:3px;
+}
+
+.pincode-div p{
+    font-family:"Inter";
+    font-size:12px;
+}
+
+.description-div{
+    margin-top:20px;
+    
+
+}
+
+.description-div h3{
+    font-family:"Inter";
+    font-size:15px;
+
+}
+
+.description-div p{
+    font-family:"Inria Sans";
+    font-size:15px;
+    width:90%;
+}
+
+.ingredients-div{
+    margin-block:20px;
+
+}
+
+.ingredients-div h3{
+    font-family:"Inter";
+    font-size:15px;
+
+}
+
+.ingredients-div p{
+    font-family:"Inria Sans";
+    font-size:15px;
+    width:90%;
+
+}
+
+
+/* RELATED PRODUCTS DIV */
+.related-products-title{
+    font-family:"Inria Sans";
+    font-size:32px;
+    font-weight: bold;
+    
+
+}
+
+.related-main-box{
+    margin-block:15px;
+    /* border:1px solid black; */
+}
+
+.related-main-box a{
+    color:black;
+    text-align: right;
+    display:block;
+    margin-block:6px;
+    font-family: "Istok Web";
+    font-size: 18px;
+    font-weight:500;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap:5px;
+}
+ 
+.related-products-flex-box{
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.related-products-item{
+    width:300px;
+    height:400px;
+    background-color: rgb(233, 235, 235);
+    box-shadow: 3px 3px 14px;
+
+}
+
+.related-products-item img{
+    display: block;
+    margin-inline: auto;
+    margin-block:5px;
+}
+
+.product-info{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+.prod-title{
+    font-family: "Istok Web";
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.price-offer{
+    display:flex;
+    gap:10px;
+    align-items: center;
+    margin-left:20px;
+}
+
+.prod-price{
+    font-family:"Inria Sans";
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.old-price{
+    font-size:12px;
+    font-weight: 400;
+    font-family: "Inter";
+}
+.offer{
+    font-family:"Inter";
+    color:green;
+    font-size:14px;
+
+}
+
+.reviews{
+    font-family:"Inter";
+    font-size:10px;
+}
+
+.rating-reviews{
+    display:flex;
+    gap:4px;
+    align-items:center;
+    margin-left:20px;
+}
+
+/* product-info-section */
+
+.product-info-section{
+    margin-top:30px;
+
+}
+
+.product-info-title{
+    font-family: Inter;
+    font-size: 30px;
+    color:#DD3131;
+    
+
+}
+
+.product-info-list{
+    height:231px;
+    background-color: #F4F6FF;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    column-gap: 100px;
+    row-gap: 48px;
+    padding:20px;
+    margin-block:20px;
+
+}
+
+.prod-info-list-column{
+    display:flex;
+    gap:20px;
+
+}
+
+.product-info-list li{
+    list-style: none;
+    font-size:19px;
+    font-family: Inter;
+
+}
+
+/* REVIEW SECTION */
+
+.review-section{
+    background-color: rgb(250, 243, 243);
+    padding-inline:20px;
+    margin-block:30px;
+
+}
+
+.review-title-div{
+    display: flex;
+    align-items: center;
+    gap:500px;
+    padding-block:45px;
+
+}
+
+.review-title-left{
+
+
+}
+
+.review-title-left h2{
+    font-size:40px;
+    font-family: "Manrope";
+}
+
+.review-title-left h3{
+    font-size:28px;
+    font-family: "Manrope";
+    font-weight: 300;
+
+}
+
+.add-review{
+    width:150px;
+    height:41px;
+    font-family:"Inter";
+    font-size:18px;
+    font-weight: bold;
+    background-color: #888888;
+    border:none;
+    cursor:pointer;
+}
+
+.review-container{
+    display: flex;
+    gap:20px;
+    padding:0 0 30px 0;
+}
+

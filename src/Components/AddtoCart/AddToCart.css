@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.status-container{
+    display:flex;
+    width:324px;
+    /* border:1px solid black; */
+    justify-content: space-between;
+    margin-inline: auto;
+    padding-block:15px;
+}
+
+.status-icon{
+    border:1px solid rgb(156, 155, 155);
+    padding:10px;
+    /* border-radius: 50% ; */
+    width:24px;
+    height:24px;
+    margin-inline: auto;
+    position:relative;
+    left:10px;
+    font-weight:600;
+}
+
+.status-item{
+    /* border:1px solid black; */
+    width:64px;
+    /* position:relative; */
+
+}
+.status-container span{
+    font-family: "Inter";
+    display:block;
+    margin-inline: auto;
+    font-size:14px;
+    text-align: center;
+}
+
+.add-to-cart-down-container{
+    padding-inline:20px;
+    
+}
+
+.shopping-cart{
+    width:888px;
+    height:448px;
+    border:1px solid rgb(196, 196, 196);
+
+}
+
+.shopping-cart h2{
+    font-size:25px;
+    font-family:"Poppins";
+    font-weight:400;
+    margin-inline:40px;
+    margin-top:15px;
+
+}
+
+.content-div{
+    display:flex;
+    
+
+
+}
+
+.product-info-div h3{
+    font-family:"Poppins";
+    font-size:17px;
+    font-weight:500;
+
+}
+
+.hero-img-container{
+
+}
+
+.product-info-div .price{
+    font-family:"Inter";
+    font-size:14px;
+}
+
+.price span{
+    font-family: "Inria Sans";
+    font-size:17px;
+    font-weight:600;
+}
+
+.price-del-off{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    padding-block:10px;
+}
+
+.product-info-div del{
+    font-family:"Inter";
+    font-size:12px;
+    font-weight:200;
+}
+
+.off{
+    color:green;
+    font-family:"Inter";
+    font-size:14px;
+}
+
+.quantity-div{
+    
+    padding-block:10px;
+    background-color: #F4EFEF;
+    
+}
+
+.availability-quantity-div{
+    font-family:"Poppins";
+    font-weight:500;
+    width:116px;
+    
+
+
+}
+
+.availability-quantity-div select{
+    background-color: #F4EFEF;
+    font-family:"Poppins";
+    font-weight:500;
+
+}
+
+.availability-quantity-div option{
+    font-family:"Poppins";
+    font-weight:500;
+    font-weight: bolder;
+    background-color: grey;
+}
+
+.availability{
+    font-family:"Poppins";
+    color:green;
+    font-size:15px;
+
+}
+
+.item-quantity-div{
+    display:flex;
+    width:115px;
+    justify-content: space-between;
+    border:3px solid rgb(192, 170, 70);
+    border-radius:15px;
+    padding-block:2px;
+    padding-inline:18px;
+    align-items: center;
+}
+
+.item-quantity-div button{
+    border:none;
+    font-size:25px;
+    background-color: transparent;
+
+
+}
+
+.item-quantity-div span{
+    font-family:"Inter";
+    font-size:15px;
+}
