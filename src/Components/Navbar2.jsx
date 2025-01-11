@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 import { isLoggedContext } from '../Context/Context';
 import UserDashboard from './UserDashboard';
 // import pic from 'src/assets/Images/logo1.png';
-import pic from "../assets/Images/logo1.png";
+
 
 
 const Navbar2 = () => {
@@ -21,7 +21,7 @@ const Navbar2 = () => {
     <div className="nav-container">
       <div className='navbar'>
         <div className="nav-logo">
-          <img src={pic} alt="logo" />
+          <img src="public/Images/logo1.png" alt="logo" />
           <h2>Bath Caramel</h2>
         </div>
 

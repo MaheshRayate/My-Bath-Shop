@@ -95,17 +95,18 @@ const Main = () => {
             <div className="main-subcontainer-outer">
                 <FaAngleLeft size={30} onClick={handleScrollPrev} style={{cursor:"pointer"}}/>
                 <div className="main-subcontainer-inner" id="top-brands" ref={topBrandRef}>
-                    <div className="top-brands-item"><a href=""><img src="src\assets\BrandLogos\dot&key.png" alt="dot&key" /></a></div>
-                    <div className="top-brands-item"><a href=""><img src="src\assets\BrandLogos\aqualogica.png" alt="aqualogica" /></a></div>
-                    <div className="top-brands-item"><a href=""><img src="src\assets\BrandLogos\nivea_new.png" alt="nivea_new" /></a></div>
-                    <div className="top-brands-item"><a href=""><img src="src\assets\BrandLogos\plum_new.png" alt="plum_new" /></a></div>
-                    <div className="top-brands-item"><a href=""><img src="src\assets\BrandLogos\himalaya_new.png" alt="himalaya_new" /></a></div>
-                    <div className="top-brands-item"><a href=""><img src="src\assets\BrandLogos\cetaphil_new.png" alt="cetaphil_new" /></a></div>
-                    <div className="top-brands-item"><a href=""><img src="src\assets\BrandLogos\pears1.jfif" alt="pears" className='square-img'/></a></div>
-                    <div className="top-brands-item"><a href=""><img src="src\assets\BrandLogos\vaseline.jfif" alt="vaseline" className='square-img' /></a></div>
-                    <div className="top-brands-item"><a href=""><img src="src\assets\BrandLogos\loreal2.png" alt="loreal" className='square-img'/></a></div>
-                    <div className="top-brands-item"><a href=""><img src="src\assets\BrandLogos\dove.jpg" alt="dove" className='square-img'/></a></div>
-                    <div className="top-brands-item"><a href=""><img src="src\assets\BrandLogos\lakme.png" alt="lakme" className='square-img' /></a></div>
+                
+                    <div className="top-brands-item"><a href=""><img src="public\BrandLogos\dot&key.png" alt="dot&key" /></a></div>
+                    <div className="top-brands-item"><a href=""><img src="public\BrandLogos\aqualogica.png" alt="aqualogica" /></a></div>
+                    <div className="top-brands-item"><a href=""><img src="public\BrandLogos\nivea_new.png" alt="nivea_new" /></a></div>
+                    <div className="top-brands-item"><a href=""><img src="public\BrandLogos\plum_new.png" alt="plum_new" /></a></div>
+                    <div className="top-brands-item"><a href=""><img src="public\BrandLogos\himalaya_new.png" alt="himalaya_new" /></a></div>
+                    <div className="top-brands-item"><a href=""><img src="public\BrandLogos\cetaphil_new.png" alt="cetaphil_new" /></a></div>
+                    <div className="top-brands-item"><a href=""><img src="public\BrandLogos\pears1.jfif" alt="pears" className='square-img'/></a></div>
+                    <div className="top-brands-item"><a href=""><img src="public\BrandLogos\vaseline.jfif" alt="vaseline" className='square-img' /></a></div>
+                    <div className="top-brands-item"><a href=""><img src="public\BrandLogos\loreal2.png" alt="loreal" className='square-img'/></a></div>
+                    <div className="top-brands-item"><a href=""><img src="public\BrandLogos\dove.jpg" alt="dove" className='square-img'/></a></div>
+                    <div className="top-brands-item"><a href=""><img src="public\BrandLogos\lakme.png" alt="lakme" className='square-img' /></a></div>
                 </div>
                 <FaAngleRight size={30} onClick={handleScrollNxt} style={{cursor:"pointer"}}/>
             </div>
