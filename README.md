@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -10,3 +11,6 @@ Currently, two official plugins are available:
 =======
 # Bath-Caremel-B2C
 >>>>>>> 25f95a498e519734b32bf13dc80fa8a10ce206ca
+=======
+# My-Bath-Shop
+>>>>>>> aab520c1c270041639ce53785b1053b1643d306d
