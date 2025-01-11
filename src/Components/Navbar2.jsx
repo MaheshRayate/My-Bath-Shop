@@ -21,7 +21,7 @@ const Navbar2 = () => {
     <div className="nav-container">
       <div className='navbar'>
         <div className="nav-logo">
-          <img src="public/Images/logo1.png" alt="logo" />
+          <img src="Images/logo1.png" alt="logo" />
           <h2>Bath Caramel</h2>
         </div>
 
