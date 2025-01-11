@@ -60,9 +60,9 @@ const Navbar2 = () => {
           </div>
 
           <div className="subcategories-img-div">
-            <img src="src/assets/Navbar/Category1/1.1.png" alt="" />
-            <img src="src/assets/Navbar/Category1/1.2.png" alt="" />
-            <img src="src/assets/Navbar/Category1/1.3.png" alt="" />
+            <img src="Navbar/Category1/1.1.png" alt="" />
+            <img src="Navbar/Category1/1.2.png" alt="" />
+            <img src="Navbar/Category1/1.3.png" alt="" />
           </div>
         </div>
       )}

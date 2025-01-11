@@ -117,13 +117,13 @@ const Main = () => {
             <div className="main-subcontainer-outer">
                 <FaAngleLeft size={30} onClick={handleScrollPrev2} style={{cursor:"pointer"}}/>
                 <div className="main-subcontainer-inner" id="top-categories" ref={topCategories}>
-                    <div className="category-item"><Link to="/view-all"><img src="src\assets\CategoryImages\bath_new.png" alt="bath" /></Link><p>Bath</p></div>
-                    <div className="category-item"><a href=""><img src="src\assets\CategoryImages\travel_new.png" alt="travel" /></a><p>Travel Minis</p></div>
-                    <div className="category-item"><a href=""><img src="src\assets\CategoryImages\body_new.png" alt="body" /></a><p>Body</p></div>
-                    <div className="category-item"><a href=""><img src="src\assets\CategoryImages\mom_baby.png" alt="mom&baby" /></a><p>Mom & Baby</p></div>
-                    <div className="category-item"><a href=""><img src="src\assets\CategoryImages\hand_care.png" alt="handcare" /></a><p>Hand Care</p></div>
-                    <div className="category-item"><a href=""><img src="src\assets\CategoryImages\hair.jpg" alt="hair" /></a><p>Hair Care</p></div>
-                    <div className="category-item"><a href=""><img src="src\assets\CategoryImages\men.jpg" alt="men" /></a><p>Men</p></div> 
+                    <div className="category-item"><Link to="/view-all"><img src="CategoryImages/bath_new.png" alt="bath" /></Link><p>Bath</p></div>
+                    <div className="category-item"><a href=""><img src="CategoryImages/travel_new.png" alt="travel" /></a><p>Travel Minis</p></div>
+                    <div className="category-item"><a href=""><img src="CategoryImages/body_new.png" alt="body" /></a><p>Body</p></div>
+                    <div className="category-item"><a href=""><img src="CategoryImages/mom_baby.png" alt="mom&baby" /></a><p>Mom & Baby</p></div>
+                    <div className="category-item"><a href=""><img src="CategoryImages/hand_care.png" alt="handcare" /></a><p>Hand Care</p></div>
+                    <div className="category-item"><a href=""><img src="CategoryImages/hair.jpg" alt="hair" /></a><p>Hair Care</p></div>
+                    <div className="category-item"><a href=""><img src="CategoryImages/men.jpg" alt="men" /></a><p>Men</p></div> 
                 </div>
                 <FaAngleRight size={30} onClick={handleScrollNxt2} style={{cursor:"pointer"}}/>
             </div>
@@ -134,15 +134,15 @@ const Main = () => {
             <div className="main-subcontainer-outer">
                 <FaAngleLeft size={30} onClick={handleScrollPrev3} style={{cursor:"pointer"}}/>
                 <div className="main-subcontainer-inner" id="top-concerns"  ref={topConcerns}>
-                    <div className="concern-item"><a href=""><img src="src\assets\Concern\dryness_new.png" alt="dryness" /></a><p>Dryness</p></div>
-                    <div className="concern-item"><a href=""><img src="src\assets\Concern\acne_new.png" alt="acne_new" /></a><p>Acne Prone</p></div>
-                    <div className="concern-item"><a href=""><img src="src\assets\Concern\dandruff_new.png" alt="dandruff_new" /></a><p>Dandruff</p></div>
-                    <div className="concern-item"><a href=""><img src="src\assets\Concern\sundamage_new.png" alt="sundamage_new" /></a><p>Sun Damage</p></div>
-                    <div className="concern-item"><a href=""><img src="src\assets\Concern\hairfall_new.png" alt="hairfall_new" /></a><p>Hairfall</p></div>
-                    <div className="concern-item"><a href=""><img src="src\assets\Concern\hyperpigmentation.png" alt="hyperpigmentation" /></a><p>Hyperpigmentation</p></div>
-                    <div className="concern-item"><a href=""><img src="src\assets\Concern\oily.webp" alt="oily" className='square-img'/></a><p>Oilyness</p></div>
-                    <div className="concern-item"><a href=""><img src="src\assets\Concern\blackhead.jpg" alt="blackhead" className='square-img' /></a><p>Black Heads</p></div>
-                    <div className="concern-item"><a href=""><img src="src\assets\Concern\hairthinning.jpg" alt="hairthinning" className='square-img'/></a><p>Hair Thinning</p></div>
+                    <div className="concern-item"><a href=""><img src="Concern/dryness_new.png" alt="dryness" /></a><p>Dryness</p></div>
+                    <div className="concern-item"><a href=""><img src="Concern/acne_new.png" alt="acne_new" /></a><p>Acne Prone</p></div>
+                    <div className="concern-item"><a href=""><img src="Concern/dandruff_new.png" alt="dandruff_new" /></a><p>Dandruff</p></div>
+                    <div className="concern-item"><a href=""><img src="Concern/sundamage_new.png" alt="sundamage_new" /></a><p>Sun Damage</p></div>
+                    <div className="concern-item"><a href=""><img src="Concern/hairfall_new.png" alt="hairfall_new" /></a><p>Hairfall</p></div>
+                    <div className="concern-item"><a href=""><img src="Concern/hyperpigmentation.png" alt="hyperpigmentation" /></a><p>Hyperpigmentation</p></div>
+                    <div className="concern-item"><a href=""><img src="Concern/oily.webp" alt="oily" className='square-img'/></a><p>Oilyness</p></div>
+                    <div className="concern-item"><a href=""><img src="Concern/blackhead.jpg" alt="blackhead" className='square-img' /></a><p>Black Heads</p></div>
+                    <div className="concern-item"><a href=""><img src="Concern/hairthinning.jpg" alt="hairthinning" className='square-img'/></a><p>Hair Thinning</p></div>
                     
                 </div>
                 <FaAngleRight size={30} onClick={handleScrollNxt3} style={{cursor:"pointer"}}/>
@@ -157,7 +157,7 @@ const Main = () => {
                 <div className="offer-container-inner">
                     <Link to="/product">
                     <div className="offer-items">
-                        <img src="src\assets\Offer\offer1.png" alt="" />
+                        <img src="Offer/offer1.png" alt="" />
                         <p>Dot & Key 10% Vitamin C + E Super Bright Face Serum 30 mL</p>
                         <div className='price-wishlist-div special'>
                             <div>
@@ -173,7 +173,7 @@ const Main = () => {
                     
                     <Link to="/product">
                     <div className="offer-items">
-                        <img src="src\assets\Offer\offer2.png" alt="" />
+                        <img src="Offer/offer2.png" alt="" />
                         <p>Dr. Sheth’s Neem & Salicylic Acid Body Wash For Body Acne-250 mL</p>
                         <div className='price-wishlist-div special'>
                             <div>
@@ -189,7 +189,7 @@ const Main = () => {
                     
                     <Link to="">
                     <div className="offer-items">
-                        <img src="src\assets\Offer\offer3.png" alt="" />
+                        <img src="Offer/offer3.png" alt="" />
                         <p>Love Beauty & Planet Argan Oil and Lavender Sulfate Free Smooth and Serene Shampoo</p>
                         <div className='price-wishlist-div'>
                             <div>
@@ -205,7 +205,7 @@ const Main = () => {
                     
                     <Link to="">
                     <div className="offer-items">
-                        <img src="src\assets\Offer\offer4.png" alt="" />
+                        <img src="Offer/offer4.png" alt="" />
                         <p> Mamaearth Onion Shampoo with Onion and Plant Keratin for Hair Fall Control - 250ml</p>
                         <div className='price-wishlist-div'>
                             <div>
@@ -229,13 +229,13 @@ const Main = () => {
             <div className="main-subcontainer-outer">
                 <FaAngleLeft size={30} onClick={handleScrollPrev4} style={{cursor:"pointer"}}/>
                 <div className="main-subcontainer-inner" id="top-bodyCare" ref={topBodyCare}>
-                    <div className="bodyCare-item"><a href=""><img src="src\assets\ExploreBody\body1.png" alt="" /></a><p>Body Oil</p></div>
-                    <div className="bodyCare-item"><a href=""><img src="src\assets\ExploreBody\body2.png" alt="" /></a><p>Moisturizer</p></div>
-                    <div className="bodyCare-item"><a href=""><img src="src\assets\ExploreBody\body3.png" alt="" /></a><p>Body Scrub</p></div>
-                    <div className="bodyCare-item"><a href=""><img src="src\assets\ExploreBody\body4.png" alt="" /></a><p>Body Serum</p></div>
-                    <div className="bodyCare-item"><a href=""><img src="src\assets\ExploreBody\body5.png" alt="" /></a><p>Soap</p></div>
-                    <div className="bodyCare-item"><a href=""><img src="src\assets\ExploreBody\body3.png" alt="" /></a><p>Hair Care</p></div>
-                    <div className="bodyCare-item"><a href=""><img src="src\assets\ExploreBody\body1.png" alt="" /></a><p>Men</p></div> 
+                    <div className="bodyCare-item"><a href=""><img src="ExploreBody/body1.png" alt="" /></a><p>Body Oil</p></div>
+                    <div className="bodyCare-item"><a href=""><img src="ExploreBody/body2.png" alt="" /></a><p>Moisturizer</p></div>
+                    <div className="bodyCare-item"><a href=""><img src="ExploreBody/body3.png" alt="" /></a><p>Body Scrub</p></div>
+                    <div className="bodyCare-item"><a href=""><img src="ExploreBody/body4.png" alt="" /></a><p>Body Serum</p></div>
+                    <div className="bodyCare-item"><a href=""><img src="ExploreBody/body5.png" alt="" /></a><p>Soap</p></div>
+                    <div className="bodyCare-item"><a href=""><img src="ExploreBody/body3.png" alt="" /></a><p>Hair Care</p></div>
+                    <div className="bodyCare-item"><a href=""><img src="ExploreBody/body1.png" alt="" /></a><p>Men</p></div> 
                 </div>
                 <FaAngleRight size={30} onClick={handleScrollNxt4} style={{cursor:"pointer"}}/>
             </div>
@@ -248,13 +248,13 @@ const Main = () => {
             <div className="main-subcontainer-outer">
                 <FaAngleLeft size={30} onClick={handleScrollPrev6} style={{cursor:"pointer"}}/>
                 <div className="main-subcontainer-inner" id="top-hairCare" ref={topHairCare}>
-                    <div className="bodyCare-item"><a href=""><img src="src\assets\ExploreHair\hair1.png" alt="" /></a><p>Shampoo</p></div>
-                    <div className="bodyCare-item"><a href=""><img src="src\assets\ExploreHair\hair2.png" alt="" /></a><p>Hair Oil</p></div>
-                    <div className="bodyCare-item"><a href=""><img src="src\assets\ExploreHair\hair3.png" alt="" /></a><p>Conditioner</p></div>
-                    <div className="bodyCare-item"><a href=""><img src="src\assets\ExploreHair\hair4.png" alt="" /></a><p>Hair Serum</p></div>
-                    <div className="bodyCare-item"><a href=""><img src="src\assets\ExploreHair\hair5.png" alt="" /></a><p>Hair Mask</p></div>
-                    <div className="bodyCare-item"><a href=""><img src="src\assets\ExploreHair\hair3.png" alt="" /></a><p>Conditioner</p></div>
-                    <div className="bodyCare-item"><a href=""><img src="src\assets\ExploreHair\hair1.png" alt="" /></a><p>Shampoo</p></div> 
+                    <div className="bodyCare-item"><a href=""><img src="ExploreHair/hair1.png" alt="" /></a><p>Shampoo</p></div>
+                    <div className="bodyCare-item"><a href=""><img src="ExploreHair/hair2.png" alt="" /></a><p>Hair Oil</p></div>
+                    <div className="bodyCare-item"><a href=""><img src="ExploreHair/hair3.png" alt="" /></a><p>Conditioner</p></div>
+                    <div className="bodyCare-item"><a href=""><img src="ExploreHair/hair4.png" alt="" /></a><p>Hair Serum</p></div>
+                    <div className="bodyCare-item"><a href=""><img src="ExploreHair/hair5.png" alt="" /></a><p>Hair Mask</p></div>
+                    <div className="bodyCare-item"><a href=""><img src="ExploreHair/hair3.png" alt="" /></a><p>Conditioner</p></div>
+                    <div className="bodyCare-item"><a href=""><img src="ExploreHair/hair1.png" alt="" /></a><p>Shampoo</p></div> 
                 </div>
                 <FaAngleRight size={30} onClick={handleScrollNxt6} style={{cursor:"pointer"}}/>
             </div>
@@ -265,13 +265,13 @@ const Main = () => {
             <div className="main-subcontainer-outer">
                 <FaAngleLeft size={30} onClick={handleScrollPrev5} style={{cursor:"pointer"}}/>
                 <div className="main-subcontainer-inner" id="top-accessories" ref={topAccessories}>
-                    <div className="accesories-item"><a href=""><img src="src\assets\Accessories\accessory1.png" alt="" /></a><p>Bath Brush</p></div>
-                    <div className="accesories-item"><a href=""><img src="src\assets\Accessories\accessory2.png" alt="" /></a><p>Shower Cap</p></div>
-                    <div className="accesories-item"><a href=""><img src="src\assets\Accessories\accessory3.png" alt="" /></a><p>Loofah</p></div>
-                    <div className="accesories-item"><a href=""><img src="src\assets\Accessories\accessory4.png" alt="" /></a><p>Towel</p></div>
-                    <div className="accesories-item"><a href=""><img src="src\assets\Accessories\accessory5.png" alt="" /></a><p>Exfoliating Tools</p></div>
-                    <div className="accesories-item"><a href=""><img src="src\assets\Accessories\accessory1.png" alt="" /></a><p>Bath Brush</p></div>
-                    <div className="accesories-item"><a href=""><img src="src\assets\Accessories\accessory3.png" alt="" /></a><p>Loofah</p></div> 
+                    <div className="accesories-item"><a href=""><img src="Accessories/accessory1.png" alt="" /></a><p>Bath Brush</p></div>
+                    <div className="accesories-item"><a href=""><img src="Accessories/accessory2.png" alt="" /></a><p>Shower Cap</p></div>
+                    <div className="accesories-item"><a href=""><img src="Accessories/accessory3.png" alt="" /></a><p>Loofah</p></div>
+                    <div className="accesories-item"><a href=""><img src="Accessories/accessory4.png" alt="" /></a><p>Towel</p></div>
+                    <div className="accesories-item"><a href=""><img src="Accessories/accessory5.png" alt="" /></a><p>Exfoliating Tools</p></div>
+                    <div className="accesories-item"><a href=""><img src="Accessories/accessory1.png" alt="" /></a><p>Bath Brush</p></div>
+                    <div className="accesories-item"><a href=""><img src="Accessories/accessory3.png" alt="" /></a><p>Loofah</p></div> 
                 </div>
                 <FaAngleRight size={30} onClick={handleScrollNxt5} style={{cursor:"pointer"}}/>
             </div>
@@ -289,14 +289,14 @@ const Main = () => {
                         <h3>TRENDING BESTSELLER</h3>
                         <div className="right-inner-flex">
                             <div className="right-item">
-                                <img src="src\assets\Spotlight\spotlight2.png" alt="" />
+                                <img src="Spotlight/spotlight2.png" alt="" />
                                 <p className='spotlight-info'>Plum Green Tea Pore Cleansing Face Wash 75mL</p>
                                 <p className='spotlight-price'>₹224</p>
                                 <button className="spotlight-btn">ADD TO CART</button>
                                 <FaRegHeart style={{position:"absolute",top:"12px",right:"10px"}} size={20}/>
                             </div>
                             <div className="right-item">
-                                <img src="src\assets\Spotlight\spotlight3.png" alt="" />
+                                <img src="Spotlight/spotlight3.png" alt="" />
                                 <p className='spotlight-info'>The Face Shop Smart Peeling Honey Black Sugar Scrub</p>
                                 <p className='spotlight-price'>₹842</p>
                                 <button className="spotlight-btn">ADD TO CART</button>
@@ -304,7 +304,7 @@ const Main = () => {
                             
                             </div>
                             <div className="right-item">
-                                <img src="src\assets\Spotlight\spotlight4.png" alt="" />
+                                <img src="Spotlight/spotlight4.png" alt="" />
                                 <p className='spotlight-info'>Lotus Organics Hair Fall Control Multi Herbs Oil - 200ml </p>
                                 <p className='spotlight-price'>₹652</p>
                                 <button className="spotlight-btn">ADD TO CART</button>
@@ -323,25 +323,25 @@ const Main = () => {
         <div className="main-subcontainer">
             <div className="main-subcontainer-outer  prefooter">
                 <div className="prefooter-items">
-                    <img src="src\assets\prefooter\freeshipping_new.png" alt="" />
+                    <img src="prefooter/freeshipping_new.png" alt="" />
                     <h2 className="prefooter-title">Free Shipping</h2>
                     <p className="prefooter-info">Above ₹500</p>
 
                 </div>
                 <div className="prefooter-items">
-                    <img src="src\assets\prefooter\easy_returns.png" alt="" />
+                    <img src="prefooter/easy_returns.png" alt="" />
                     <h2 className="prefooter-title">7 Days Easy</h2>
                     <p className="prefooter-info">Return</p>
                     
                 </div>
                 <div className="prefooter-items">
-                    <img src="src\assets\prefooter\authentic.png" alt="" />
+                    <img src="prefooter/authentic.png" alt="" />
                     <h2 className="prefooter-title">100% Authentic</h2>
                     <p className="prefooter-info">Products</p>
                     
                 </div>
                 <div className="prefooter-items">
-                    <img src="src\assets\prefooter\100+.png" alt="" />
+                    <img src="prefooter/100+.png" alt="" />
                     <h2 className="prefooter-title">100+Brands</h2>
                     <p className="prefooter-info">1 Lakh Products</p>
                     

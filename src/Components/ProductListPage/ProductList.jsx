@@ -234,7 +234,7 @@ const ProductList = () => {
     return (
         <div className="product-list-page">
             <div className="img-container">
-                <img src="src/Components/ProductListPage/Assets/HeroImg.png" alt="" />
+                <img src="ProductListPage/HeroImg.png" alt="" />
                 <h1 className="main-title">Bath Care</h1>
             </div>
 

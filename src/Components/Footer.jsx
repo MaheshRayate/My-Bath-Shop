@@ -23,17 +23,17 @@ const Footer = () => {
                 <div className="social-media-div">
                     <h6>GET CONNECTED</h6>
                     <div className="social-icons">
-                        <img src="src\assets\footer\instagram.png" alt="" />
-                        <img src="src\assets\footer\facebook.png" alt="" />
-                        <img src="src\assets\footer\youtube.png" alt="" />
+                        <img src="footer/instagram.png" alt="" />
+                        <img src="footer/facebook.png" alt="" />
+                        <img src="footer/youtube.png" alt="" />
                     </div>
                 </div>
                 <div className="payment-div">
                     <h6>PAYMENT METHODS</h6>
                     <div className="payment-icons">
-                        <img src="src\assets\Payment\googlepay.png" alt="" />
-                        <img src="src\assets\Payment\phonepe.png" alt="" style={{width:"50px", height:"34px"}}/>
-                        <img src="src\assets\Payment\rupay.png" alt="" style={{width:"40px", height:"34px"}} />
+                        <img src="Payment/googlepay.png" alt="" />
+                        <img src="Payment/phonepe.png" alt="" style={{width:"50px", height:"34px"}}/>
+                        <img src="Payment/rupay.png" alt="" style={{width:"40px", height:"34px"}} />
                     </div>
                 </div>
                 

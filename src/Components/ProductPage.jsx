@@ -14,7 +14,7 @@ const ProductPage = () => {
   const [qty, setQty] = useState(1);
 
 
-  let imgAddress = `src/assets/productPageAssets/Bigproduct${currIdx}.png`
+  let imgAddress = `ProductPageAssets/Bigproduct${currIdx}.png`
   return (
     <div className='product-page-container'>
       <div className="product-page-container-top">
@@ -22,10 +22,10 @@ const ProductPage = () => {
 
           <div className="product-page-left-top">
             <div className="img-div">
-              <img src="src/assets/productPageAssets/product1.png" alt="" onMouseEnter={() => { setCurrIdx(1) }} onMouseLeave={() => { setCurrIdx(1) }} />
-              <img src="src/assets/productPageAssets/product2.png" alt="" onMouseEnter={() => { setCurrIdx(2) }} onMouseLeave={() => { setCurrIdx(1) }} />
-              <img src="src/assets/productPageAssets/product3.png" alt="" onMouseEnter={() => { setCurrIdx(3) }} onMouseLeave={() => { setCurrIdx(1) }} />
-              <img src="src/assets/productPageAssets/product4.png" alt="" onMouseEnter={() => { setCurrIdx(4) }} onMouseLeave={() => { setCurrIdx(1) }} />
+              <img src="ProductPageAssets/product1.png" alt="" onMouseEnter={() => { setCurrIdx(1) }} onMouseLeave={() => { setCurrIdx(1) }} />
+              <img src="ProductPageAssets/product2.png" alt="" onMouseEnter={() => { setCurrIdx(2) }} onMouseLeave={() => { setCurrIdx(1) }} />
+              <img src="ProductPageAssets/product3.png" alt="" onMouseEnter={() => { setCurrIdx(3) }} onMouseLeave={() => { setCurrIdx(1) }} />
+              <img src="ProductPageAssets/product4.png" alt="" onMouseEnter={() => { setCurrIdx(4) }} onMouseLeave={() => { setCurrIdx(1) }} />
             </div>
 
             <div className="spotlight-img-div">
@@ -39,22 +39,22 @@ const ProductPage = () => {
 
           <div className="tags-div">
             <div>
-              <img src="src/assets/productPageAssets/tag1.png" alt="" />
+              <img src="ProductPageAssets/tag1.png" alt="" />
               <p>Parabean free</p>
             </div>
 
             <div>
-              <img src="src/assets/productPageAssets/tag2.png" alt="" />
+              <img src="ProductPageAssets/tag2.png" alt="" />
               <p>No Fragrance</p>
             </div>
 
             <div>
-              <img src="src/assets/productPageAssets/tag3.png" alt="" />
+              <img src="ProductPageAssets/tag3.png" alt="" />
               <p>Vegan Free</p>
             </div>
 
             <div>
-              <img src="src/assets/productPageAssets/tag4.png" alt="" />
+              <img src="ProductPageAssets/tag4.png" alt="" />
               <p>No Synthetic Dyes</p>
 
             </div>
@@ -171,7 +171,7 @@ const ProductPage = () => {
           <div className="related-products-flex-box">
             <div className="related-products-item">
 
-              <img src="src/assets/ProductPageAssets/0.png" alt="" />
+              <img src="ProductPageAssets/0.png" alt="" />
               <div className="product-info">
                 <p className="prod-title">Dove Deeply Nourishing Body Wash, With Exfoliating Beads For Softer, Smoother Skin, 800 ml</p>
 
@@ -189,7 +189,7 @@ const ProductPage = () => {
             </div>
             <div className="related-products-item">
 
-            <img src="src/assets/ProductPageAssets/1.png" alt="" />
+            <img src="ProductPageAssets/1.png" alt="" />
               <div className="product-info">
                 <p className="prod-title">Deconstruct 1% Salicylic Acid Body Wash with 2% Glycolic Acid |  Shower gel for Women & Men- 200ml</p>
 
@@ -207,7 +207,7 @@ const ProductPage = () => {
             </div>
 
             <div className="related-products-item">
-            <img src="src/assets/ProductPageAssets/2.png" alt="" />
+            <img src="ProductPageAssets/2.png" alt="" />
               <div className="product-info">
                 <p className="prod-title">Love Beauty & Planet Argan Oil and Lavender Sulfate Free Smooth and Serene Shampoo</p>
 
@@ -226,7 +226,7 @@ const ProductPage = () => {
 
             <div className="related-products-item">
 
-            <img src="src/assets/ProductPageAssets/3.png" alt="" />
+            <img src="ProductPageAssets/3.png" alt="" />
               <div className="product-info">
                 <p className="prod-title"> Mamaearth Onion Shampoo with Onion and Plant Keratin for Hair Fall Control - 600ml</p>
 
@@ -273,10 +273,10 @@ const ProductPage = () => {
         <div className="review-container">
           <Review 
           title="Floyd Miles"
-          img="src/assets/Review/user1.png"
+          img="Review/user1.png"
           />
           <Review title="Adam Gily"
-          img="src/assets/Review/user2.png"
+          img="Review/user2.png"
           />
           
         </div>
