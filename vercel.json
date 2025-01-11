@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "builds": [
       {
         "src": "src/index.js",
@@ -11,3 +12,16 @@
     ]
   }
   
+=======
+  "builds": [
+    {
+      "src": "src/index.js",
+      "use": "@vercel/static-build",
+      "config": { "distDir": "build" }
+    }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/" }
+  ]
+}
+>>>>>>> d9d328f0cb4c309ec849556d96da08c195449ee7
