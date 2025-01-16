@@ -19,7 +19,7 @@ const Navbar2 = () => {
 
   return (
     <div className="nav-container">
-      <div className='navbar'>
+      <div className='navbar' onMouseEnter={()=>{setIsClicked(null)}}>
         <div className="nav-logo">
           <img src="Images/logo1.png" alt="logo" />
           <h2>Bath Caramel</h2>
@@ -52,7 +52,7 @@ const Navbar2 = () => {
       {clickedUser?<UserDashboard/>:null}
 
       {isClicked !== null && (
-        <div className="subcategories-list-div" onMouseLeave={()=>{setIsClicked(null)}}>
+        <div className="subcategories-list-div" onMouseEnter={()=>{setIsClicked(index)}} onMouseLeave={()=>{setIsClicked(null)}}>
           <div className="subcategories-list">
             {NavbarData[isClicked].subCategories.map((subcategory, index) => (
               <li key={index}>{subcategory}</li>
