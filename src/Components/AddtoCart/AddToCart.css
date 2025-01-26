@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
     padding: 0;
@@ -42,130 +43,281 @@
 
 .add-to-cart-down-container{
     padding-inline:20px;
+    display:flex;
+    gap:20px;
     
 }
 
 .shopping-cart{
     width:888px;
-    height:448px;
-    border:1px solid rgb(196, 196, 196);
+    
 
 }
 
 .shopping-cart h2{
     font-size:25px;
     font-family:"Poppins";
-    font-weight:400;
+    font-weight:500;
     margin-inline:40px;
     margin-top:15px;
-
-}
-
-.content-div{
-    display:flex;
     
 
+}
+
+.actual-cart{
+    width:888px;
+    min-height:448px;
+    padding-bottom: 15px;;
+    border:1px solid rgb(196, 196, 196);
+    box-shadow:0px 8px 4px rgb(184, 183, 183);
 
 }
 
-.product-info-div h3{
-    font-family:"Poppins";
-    font-size:17px;
-    font-weight:500;
-
-}
-
-.hero-img-container{
-
-}
-
-.product-info-div .price{
+.cart-h1{
+    padding-inline:40px;
     font-family:"Inter";
-    font-size:14px;
-}
-
-.price span{
-    font-family: "Inria Sans";
-    font-size:17px;
-    font-weight:600;
-}
-
-.price-del-off{
-    display:flex;
-    align-items:center;
-    gap:15px;
-    padding-block:10px;
-}
-
-.product-info-div del{
-    font-family:"Inter";
-    font-size:12px;
-    font-weight:200;
-}
-
-.off{
-    color:green;
-    font-family:"Inter";
-    font-size:14px;
-}
-
-.quantity-div{
-    
-    padding-block:10px;
-    background-color: #F4EFEF;
-    
-}
-
-.availability-quantity-div{
-    font-family:"Poppins";
-    font-weight:500;
-    width:116px;
-    
-
-
-}
-
-.availability-quantity-div select{
-    background-color: #F4EFEF;
-    font-family:"Poppins";
-    font-weight:500;
-
-}
-
-.availability-quantity-div option{
-    font-family:"Poppins";
-    font-weight:500;
-    font-weight: bolder;
-    background-color: grey;
-}
-
-.availability{
-    font-family:"Poppins";
-    color:green;
-    font-size:15px;
-
-}
-
-.item-quantity-div{
-    display:flex;
-    width:115px;
-    justify-content: space-between;
-    border:3px solid rgb(192, 170, 70);
-    border-radius:15px;
-    padding-block:2px;
-    padding-inline:18px;
-    align-items: center;
-}
-
-.item-quantity-div button{
-    border:none;
+    font-weight:400;
     font-size:25px;
-    background-color: transparent;
-
 
 }
 
-.item-quantity-div span{
+.place-order-div{
+    display:flex;
+    justify-content: flex-end;
+    margin-top:60px;
+    margin-right:20px;
+    
+
+}
+
+.place-order-div a{
+    color:white;
+    text-decoration: none;;
+}
+
+.place-order-div button{
+    background-color: #FFA600;
+    border:none;
+    outline:none;
+    width:194px;
+    font-family:"Poppins";
+    font-size:21px;
+    color:white;
+    padding-block:4px;
+    cursor:"pointer",
+
+}
+
+.place-order-div button:hover{
+    font-weight: 700;
+    cursor:"pointer",
+}
+
+
+
+
+.add-from-wishlist{
+    padding-left:25px;
+    border:1px solid rgb(196, 193, 193);
+    margin-block:15px;
+    padding-block:20px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right:10px;
+
+}
+
+.add-from-wishlist p{
     font-family:"Inter";
+    font-size:17px;
+    
+}
+
+.para-icon-div{
+    display:flex;
+    align-items: center;
+    gap:15px;
+
+}
+
+.right-arrow-div{
+
+}
+
+.right-arrow-div{
+    
+}
+
+/* Coupon-Price-Section */
+
+.coupon-price-section{
+    width:415px;
+    height:655px;
+    border:1px solid rgb(218, 215, 215);
+    box-shadow:0px 4px 8px rgb(163, 162, 162);
+    padding-inline:13px;
+}
+
+.coupon-div{
+
+}
+
+.header-div{
+    display:flex;
+    align-items: center;
+    gap:6px;
+    padding-block:15px;
+    
+}
+
+.header-div h3{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 450;;
+    
+}
+ 
+.apply-coupon{
+
+}
+
+.apply-coupon form{
+    display:flex;
+    gap:80px;
+}
+
+.apply-coupon input{
+    width:149px;
+    padding-block:15px;
+    font-family:"Poppins";
+    text-align: center;
+    
+}
+
+.apply-coupon button{
+    
+    width:110px;
+    text-align: center;
+    background: none;
+    border:2px solid red;
+    color:red;
+    font-family: "Roboto";
     font-size:15px;
+    font-weight:500;
+}
+
+.coupons-option-div{
+    display:flex;
+    flex-wrap: wrap;
+    column-gap:30px;
+    row-gap:20px;
+    margin-block:30px;
+
+}
+
+.coupons{
+    width:165px;
+    border:2px dashed rgb(109, 98, 209);
+    height:61px;
+    cursor: pointer;
+
+}
+
+.coupons p{
+    font-family:"Work Sans";
+    font-size:13px;
+    color:#555151;
+    text-align: center;
+    padding-block:4px;
+}
+
+.coupons h3{
+    font-family:"Work Sans";
+    font-size: 15px;
+    text-align: center;
+}
+
+.login-comment{
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid grey;
+    
+
+}
+
+.login-comment p{
+    font-family:"Roboto";
+    width:292px;
+    margin-inline:40px;;
+    display:block;
+    /* color:red; */
+    /* font-weight: 500; */
+    
+}
+.login-comment a{
+    text-decoration: none;
+    font-family:"Roboto";
+    color:red;
+    font-weight: 500;
+    
+}
+
+.offer-price-div{
+
+}
+
+.offer-price-div h3{
+    font-family: "Poppins";
+    font-size: 18px;
+    margin-top:15px;
+}
+
+.price-item{
+    display:flex;
+    justify-content: space-between;
+    padding-block:8px;
+}
+
+.price-item p{
+    font-family: "Poppins";
+    font-size:14.5px;
+    
+}
+.actual-value{
+    padding-right: 20px;;
+}
+
+.total-price-div{
+    margin-top:60px;
+    border-top:1px solid grey;
+}
+
+/* Suggestion Div */
+
+.suggestion-div{
+    /* border:1px solid black; */
+    margin-inline:20px;
+    margin-block:20px;
+    padding-inline:50px;
+    padding-block:30px;
+    background-color: #FCF6FA;
+}
+
+.suggestion-div h2{
+    font-family:"Poppins";
+    font-size:23px;
+    font-weight:450;
+    margin-inline:28px;
+}
+
+.products-flex-container{
+    display:flex;
+    flex-wrap: wrap;
+    gap:30px;
+    justify-content: space-between;
+    padding-inline: 30px;
+    margin-block:20px;
+    
+
 }

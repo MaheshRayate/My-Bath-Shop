@@ -31,9 +31,9 @@ const Navbar2 = () => {
         </div>
 
         <div className="nav-btns">
-          <BsCart2 size={38} style={{ cursor: "pointer" }} />
+          <Link to="/add-to-cart"><BsCart2 size={38} style={{ cursor: "pointer" }} /></Link>
           <IoMdNotificationsOutline size={38} style={{ cursor: "pointer" }} />
-          <IoMdHeartEmpty size={38} style={{ cursor: "pointer" }} />
+          <Link to="/wishlist"><IoMdHeartEmpty size={38} style={{ cursor: "pointer" }} /></Link>
           <AiOutlineUser size={38} style={{ cursor: "pointer" }} onMouseEnter={() => { setClickedUser(!clickedUser) }} />
         </div>
       </div>

@@ -79,6 +79,10 @@
   gap:10px;
 }
 
+.nav-btns a{
+  color:black;
+}
+
 .nav-login-btn{
   font-family: "Inter";
   font-size:20px;

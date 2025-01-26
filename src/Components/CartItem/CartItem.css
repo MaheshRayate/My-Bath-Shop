@@ -1,0 +1,173 @@
+
+.cart-item{
+    display:flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    border:1px solid rgb(226, 221, 221);
+    padding-block:20px;
+    box-shadow:0px 3px 6px rgb(226, 221, 221);
+    margin-block:4px;
+    
+    
+}
+
+.cart-item input{
+    height:20px;
+    width:20px;
+    border:1px solid black;
+    outline: grey;
+    margin-inline:5px;
+}
+
+.content-div{
+    display:flex;
+    justify-content: space-between;
+    width:calc(100% - 30px);
+    align-items: center;
+
+    
+
+
+}
+.product-info-div{
+    border:1px solid rgb(180, 178, 178);
+    border-right: none;;
+    padding-inline: 10px;
+    width:585px;
+    padding-block:10px;
+}
+
+.product-info-div h3{
+    font-family:"Poppins";
+    font-size:17px;
+    font-weight:500;
+
+}
+
+.hero-img-container{
+
+}
+
+.product-info-div .price{
+    font-family:"Inter";
+    font-size:14px;
+}
+
+.price span{
+    font-family: "Inria Sans";
+    font-size:17px;
+    font-weight:600;
+}
+
+.price-del-off{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    padding-block:5px;
+}
+
+.product-info-div del{
+    font-family:"Inter";
+    font-size:12px;
+    font-weight:200;
+}
+
+.off{
+    color:green;
+    font-family:"Inter";
+    font-size:14px;
+}
+
+.quantity-div{
+    
+    padding-block:6px;
+    
+    
+}
+
+.quantity-div div{
+    background-color: #F4EFEF;
+    padding:3px;
+
+}
+.quantity-div select{
+    border:none;
+    outline:none;
+
+}
+
+.availability-quantity-div{
+    font-family:"Poppins";
+    font-weight:500;
+    /* width:116px; */
+    
+
+
+}
+
+.availability-quantity-div select{
+    background-color: #F4EFEF;
+    font-family:"Poppins";
+    font-weight:500;
+
+}
+
+.availability-quantity-div option{
+    font-family:"Poppins";
+    font-weight:500;
+    font-weight: bolder;
+    background-color: grey;
+}
+
+.availability{
+    font-family:"Poppins";
+    color:green;
+    font-size:15px;
+
+}
+
+.item-quantity-div{
+    display:flex;
+    width:115px;
+    justify-content: space-between;
+    border:3px solid rgb(192, 170, 70);
+    border-radius:20px;
+    padding-block:1px;
+    padding-inline:18px;
+    align-items: center;
+}
+
+.item-quantity-div button{
+    border:none;
+    font-size:25px;
+    background-color: transparent;
+
+
+}
+
+.item-quantity-div span{
+    font-family:"Inter";
+    font-size:15px;
+}
+
+.qty-share-delete-div{
+    display:flex;
+    align-items: center;
+    margin-top:10px;
+    gap:20px;
+}
+
+.cart-btns{
+    padding-inline:6px;
+    margin-inline:2px;
+    background: none;
+    outline:none;
+    border:none;
+    border-right: 1px solid grey;
+    cursor: pointer;
+}
+
+.cart-btns:hover{
+    font-weight:bolder
+}
+

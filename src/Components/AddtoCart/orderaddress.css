@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.address-container{
+    margin-inline:20px;
+    /* border:1px solid grey; */
+    margin-block:15px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.address-form-div{
+    padding-inline:15px;
+    padding-block:10px;
+    width:790px;
+    border:1px solid grey;
+    box-shadow:0px 4px 8px rgb(71, 70, 70);
+    /* margin-block:20px; */
+}
+.address-form-header{
+
+}
+
+.address-form-header h2{
+    font-family: "Inter";
+    font-size:22px;
+    color:#FF787F;
+    font-weight:450;
+}
+
+.address-form-div h3{
+    font-family:"Roboto";
+    font-weight:450;
+    font-size:20px;
+    margin-block:10px;
+}
+
+.actual-address-form-div{
+
+}
+
+.actual-address-form-div form{
+
+}
+
+.actual-address-form-div label{
+    font-family:"Roboto";
+    font-size:15px;
+
+}
+
+
+
+.actual-address-form-div input{
+    padding-block:6px;
+    padding-left:4px;
+}
+
+.fullLength{
+    width:100%;
+}
+
+.form-item{
+    margin-block:20px;
+
+}
+
+.form-item select{
+    padding-block:6px;
+}
+
+.two-inputs{
+    display:flex;
+    gap:20px;
+}
+
+.two-inputs input{
+    width:380px;
+}
+
+.actual-address-form-div form{
+    
+}
+
+
+.actual-address-form-div form button{
+    background-color: #FFA600;
+    color:white;
+    border:none;
+    outline:none;
+    font-family:"Roboto";
+    padding-inline:40px;
+    padding-block:8px;
+    font-size:20px;
+    cursor: pointer;
+
+    
+}
+
+.actual-address-form-div form button:hover{
+    font-weight:500;
+}
+
+.flex-item{
+    display:flex;
+    justify-content: end;
+}

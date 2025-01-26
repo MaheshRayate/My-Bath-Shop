@@ -25,12 +25,18 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import { nameContext } from './Context/Context';
 import { isLoggedContext } from './Context/Context';
+import { cartItemsContext } from './Context/CartContext';
+import Wishlist from './Components/Wishlist/Wishlist';
+import OrderAddress from './Components/AddtoCart/OrderAddress';
 
 
 function App() {
   const [count, setCount] = useState(0);
   const [name,setName]=useState("");
   const [isLoggedIn,setIsLoggedIn]=useState(false);
+
+  // Number of Cart Items
+  const [cartItems,setCartItems]=useState([]);
 
   const router=createBrowserRouter([
     {
@@ -77,6 +83,14 @@ function App() {
     {
       path:"/add-to-cart",
       element:<><Navbar2/><AddToCart/><Footer/></>
+    },
+    {
+      path:"/add-to-cart-address",
+      element:<><Navbar2/><OrderAddress/><Footer/></>
+    },
+    {
+      path:"/wishlist",
+      element:<><Navbar2/><Wishlist/><Footer/></>
     }
   ])
 
@@ -84,14 +98,16 @@ function App() {
   
 
   return (
+    <cartItemsContext.Provider value={{cartItems,setCartItems}}>
     <nameContext.Provider value={{name,setName}}>
     <isLoggedContext.Provider value={{isLoggedIn,setIsLoggedIn}}>
-    
+
       <RouterProvider router={router}/>
 
-    </isLoggedContext.Provider>
-      
+    </isLoggedContext.Provider>  
     </nameContext.Provider>
+    </cartItemsContext.Provider>
+    
       
     
   )

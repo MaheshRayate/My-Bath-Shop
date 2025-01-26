@@ -105,6 +105,11 @@
     margin-inline: auto;
 }
 
+.cart-btn button:hover{
+    font-weight:bolder
+
+}
+
 .cart-btn a{
     color:white;
     text-decoration: none;

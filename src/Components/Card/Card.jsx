@@ -2,8 +2,18 @@ import React from 'react';
 import "./Card.css";
 import { FaRegHeart } from "react-icons/fa";
 import { Link } from 'react-router-dom';
+import { cartItemsContext } from '../../Context/CartContext';
 
 const Card = (props) => {
+
+    const handleClick=()=>{
+        props.onButtonClick(props.id);
+        alert("Item Added to Cart")
+    }
+        
+
+    
+
     return (
         <div className="product-card">
             <div className="product-img">
@@ -32,7 +42,7 @@ const Card = (props) => {
             </div>
 
             <div className="cart-btn">
-                <button><Link to="/add-to-cart">ADD TO CART</Link></button>
+                <button onClick={handleClick} style={{cursor:"pointer"}}>ADD TO CART</button>
             </div>
         </div>
     )
